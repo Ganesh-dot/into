@@ -12,10 +12,10 @@ function App() {
       <Greet name="Bruce" heroName="Batman" />
      {/* <Greet name="Clark" heroName="Superman" />
       <Greet name="Diana" heroName="Wonder Women" />
-      <Welcome />
       <HelloJSX /> 
       <Message />*/}
       <Counter />
+      <Welcome name="Clark" heroName="Superman" />
     </div>
   );
 }
