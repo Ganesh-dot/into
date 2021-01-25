@@ -4,16 +4,18 @@ import { Greet } from "./component/Greet"
 import Welcome from "./component/Welcome";
 import HelloJSX from "./component/HelloJSX";
 import Message from "./component/Message";
+import Counter from "./component/Counter";
 
 function App() {
   return (
     <div className="App">
-     {/* <Greet name="Bruce" heroName="Batman" />
-      <Greet name="Clark" heroName="Superman" />
+      <Greet name="Bruce" heroName="Batman" />
+     {/* <Greet name="Clark" heroName="Superman" />
       <Greet name="Diana" heroName="Wonder Women" />
       <Welcome />
-      <HelloJSX /> */}
-      <Message />
+      <HelloJSX /> 
+      <Message />*/}
+      <Counter />
     </div>
   );
 }
