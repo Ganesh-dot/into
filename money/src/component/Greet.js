@@ -1,6 +1,8 @@
 import React from "react";
 
-export const Greet = props => { 
-   console.log(props)
-  return  <h1> Hello {props.name} and {props.heroName} </h1>
+export const Greet = props => {
+  const {name , heroName} = props
+  return <div>
+           <h1> Hello {name} and {heroName} </h1> 
+         </div> 
 }
