@@ -5,6 +5,8 @@ import Welcome from "./component/Welcome";
 import HelloJSX from "./component/HelloJSX";
 import Message from "./component/Message";
 import Counter from "./component/Counter";
+import FunctionClick from "./component/FunctionClick";
+import ClassClick from "./component/ClassClick";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Message />*/}
       <Counter />
       <Welcome name="Clark" heroName="Superman" />
+      <FunctionClick />
+      <ClassClick />
     </div>
   );
 }
