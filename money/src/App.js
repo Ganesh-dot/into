@@ -8,10 +8,12 @@ import Counter from "./component/Counter";
 import FunctionClick from "./component/FunctionClick";
 import ClassClick from "./component/ClassClick";
 import EventBind from "./component/EventBind";
+import ParentComponent from './component/ParentComponent';
 
 function App() {
   return (
     <div className="App">
+    <ParentComponent />
      {/* <Greet name="Bruce" heroName="Batman" />
       <Greet name="Clark" heroName="Superman" />
       <Greet name="Diana" heroName="Wonder Women" />
@@ -20,8 +22,8 @@ function App() {
       <Counter />
       <Welcome name="Clark" heroName="Superman" />
       <FunctionClick />
-      <ClassClick />*/}
-      <EventBind />
+      <ClassClick />
+      <EventBind />*/}
     </div>
   );
 }
