@@ -16,7 +16,6 @@ class EventBind extends Component {
        })
      console.log(this)
    }
-
     render() {
         return (
             <div>
