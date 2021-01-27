@@ -9,12 +9,14 @@ import FunctionClick from "./component/FunctionClick";
 import ClassClick from "./component/ClassClick";
 import EventBind from "./component/EventBind";
 import ParentComponent from './component/ParentComponent';
+import UserGreeting from './component/UserGreeting';
 
 function App() {
   return (
     <div className="App">
-    <ParentComponent />
-     {/* <Greet name="Bruce" heroName="Batman" />
+    <UserGreeting />
+    {/* <ParentComponent />
+      <Greet name="Bruce" heroName="Batman" />
       <Greet name="Clark" heroName="Superman" />
       <Greet name="Diana" heroName="Wonder Women" />
       <HelloJSX /> 
