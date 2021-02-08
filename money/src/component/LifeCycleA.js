@@ -15,11 +15,31 @@ class LifeCycleA extends Component {
 
    static getDerivedStateFromProps(props , state){
      console.log("LifeCycleA getDerivedStateFromProps") 
-    return null 
+    return null
    }
    
    componentDidMount(){
      console.log("LifeCycleA componentDidMount")
+   }
+
+   shouldComponentUpdate(){
+     console.log("LifecycleA shouldComponentUpdate")
+     return true
+   }
+
+   getSnapshotBeforeUpdate(){
+      console.log("LifeCycleA getSnapshotBeforeUpdate")
+      return null
+   }
+
+   componentDidUpdate(){
+     console.log("LifeCycleA componentDidUpdate")
+   }
+
+   changeState = () => {
+     this.setState({
+       name: "Codevolution"
+     })
    }
 
   render() {
@@ -27,6 +47,7 @@ class LifeCycleA extends Component {
     return (
       <div>
         LifeCycleA
+        <button onClick={this.changeState}>Change State</button>
         <LifeCycleB />
       </div>
     )
