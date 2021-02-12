@@ -18,29 +18,29 @@ class LifeCycleA extends Component {
     return null
    }
    
-   componentDidMount(){
-     console.log("LifeCycleA componentDidMount")
-   }
+  componentDidMount(){
+    console.log("LifeCycleA componentDidMount")
+    }
 
-   shouldComponentUpdate(){
-     console.log("LifecycleA shouldComponentUpdate")
-     return true
-   }
+  shouldComponentUpdate(){
+    console.log("LifecycleA shouldComponentUpdate")
+      return true
+    }
 
-   getSnapshotBeforeUpdate(){
-      console.log("LifeCycleA getSnapshotBeforeUpdate")
+  getSnapshotBeforeUpdate(){
+    console.log("LifeCycleA getSnapshotBeforeUpdate")
       return null
-   }
+    }
 
-   componentDidUpdate(){
-     console.log("LifeCycleA componentDidUpdate")
-   }
+  componentDidUpdate(){
+    console.log("LifeCycleA componentDidUpdate")
+    }
 
-   changeState = () => {
-     this.setState({
-       name: "Codevolution"
-     })
-   }
+    changeState = () => {
+       this.setState({
+         name: "Codevolution"
+          })
+        }
 
   render() {
     console.log("LifeCycleA Render")
