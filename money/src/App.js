@@ -1,11 +1,11 @@
+import { PureComponent } from 'react';
 import './App.css';
-import FragmentDemo from './component/FragmentDemo';
-import Table from './component/Table';
+import ParentComp from './component/ParentComp';
 
 function App() {
   return (
     <div className="App">
-      <Table />
+      <ParentComp />
     </div>
   );
 }
